@@ -1,0 +1,29 @@
+.c-btn {
+	font-family: sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.875;
+	color: white;
+	min-width: 10rem;
+	padding: 0.5rem 1.5rem;
+	border: 1px solid red;
+	background: green;
+	border-radius: 0.3125rem;
+	box-shadow: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+
+	&:hover {
+		color: red;
+		background: red;
+	}
+
+	&--outline {
+		color: red;
+		background-color: transparent;
+
+		&:hover {
+			color: red;
+			background-color: red;
+		}
+	}
+}
