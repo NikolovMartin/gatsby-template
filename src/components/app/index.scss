@@ -1,0 +1,7 @@
+@import '../../styles/utilities/settings.scss';
+
+.c-app {
+	@include flex-column(nowrap, stretch, stretch);
+	background-color: red;
+	min-height: 100vh;
+}

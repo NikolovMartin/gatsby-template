@@ -1,0 +1,16 @@
+@import '../../styles/utilities/settings.scss';
+
+.c-nav {
+	ul {
+		@include flex-row(nowrap, center, space-between);
+	}
+
+	li {
+		list-style-type: none;
+		padding: 0 1rem;
+
+		&:last-of-type {
+			padding-right: 0;
+		}
+	}
+}

@@ -1,6 +1,10 @@
 $timing: 0.4s;
 $easing: ease-in-out;
 
+a {
+	text-decoration: none;
+}
+
 @mixin flex($align, $justify) {
 	display: flex;
 	align-items: $align;
