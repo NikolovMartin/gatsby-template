@@ -9,14 +9,5 @@
 module.exports = {
 	/* Your site config here */
 
-	plugins: [
-		`gatsby-plugin-sass`,
-		`gatsby-plugin-react-helmet`,
-		{
-			resolve: `gatsby-global-styles`,
-			options: {
-				pathToConfigModule: `./src/styles/global.scss`
-			}
-		}
-	]
+	plugins: [`gatsby-plugin-sass`, `gatsby-plugin-react-helmet`]
 };

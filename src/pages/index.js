@@ -10,11 +10,13 @@ export default function Home() {
 		<App>
 			<Shell>
 				<Header />
-				<h1>Hello world!</h1>
+				<main className="o-main">
+					<h1>Hello world!</h1>
 
-				<Button>Button</Button>
+					<Button>Button</Button>
 
-				<Link to="/contact/">Contact</Link>
+					<Link to="/contact/">Contact page</Link>
+				</main>
 			</Shell>
 		</App>
 	);
