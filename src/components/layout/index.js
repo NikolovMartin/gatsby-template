@@ -1,5 +1,5 @@
-import * as React from "react"
+import * as React from 'react';
 
-const Template = ({ children }) => <div>{children}</div>
+const Template = ({ children }) => <div>{children}</div>;
 
-export default Template
+export default Template;

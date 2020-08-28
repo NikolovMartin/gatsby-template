@@ -5,9 +5,9 @@ import { Link } from 'gatsby';
 export default function Home() {
 	return (
 		<div>
-			<h1>Hello world!</h1>
+			<h1>Welcome to Contact page</h1>
 			<Button>Button</Button>
-			<Link to="/contact/">Contact</Link>
+			<Link to="/">Home</Link>
 		</div>
 	);
 }
