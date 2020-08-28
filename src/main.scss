@@ -1,0 +1,43 @@
+@import './styles/utilities/colors.scss';
+@import './styles/utilities/settings.scss';
+
+* {
+	box-sizing: border-box;
+
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
+}
+
+html,
+body,
+#app,
+.o-wrapper {
+	height: 100%;
+}
+
+#app {
+	display: none;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, Tahoma, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.25;
+	background-color: rgba(209, 204, 204, 0.75);
+	color: $color-black;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.35s ease-in-out;
+}
+
+img {
+	border: 0;
+	display: inline-block;
+	vertical-align: top;
+}
